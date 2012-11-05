@@ -2,11 +2,11 @@ Staircase - A practical Vim-Tmux bridge for Scala coding
 =======================================================
 
 Staircase is the port of my other plugins [Beduino]()
-and [Cumino]() to Scala mode. It allows you to quickly send functions,
+and [Cumino](http://github.com/adinapoli/cumino) to Scala mode. It allows you to quickly send functions,
 objects and classes to your Scala REPL (either with Scala standalone or
 with SBT console).
 
-* Read the [Wiki](https://github.com/adinapoli/cumino/wiki/Getting-Started) to get started
+* Read the [Wiki](https://github.com/adinapoli/staircase/wiki/Getting-Started) to get started
 
 # Prerequisites
 
