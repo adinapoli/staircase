@@ -98,7 +98,7 @@ def line_starts_with(line, keyword):
 def tag_if_multiline(lines):
   # Decide whether wrapping the line for multiline
   # pasting
-  if len(lines) > 1 and not line_starts_with(lines[0], "import"):
+  if len(lines) > 1:
     return [":paste"] + lines
   return lines
 
