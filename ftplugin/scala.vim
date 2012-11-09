@@ -117,7 +117,7 @@ def send_buffer_to_tmux():
 
 def staircase_show_type_under_the_cursor():
   function_name = vim.eval("@z")
-  write_to_buffer_raw(":type " + function_name)
+  write_to_buffer_raw(":type " + function_name + " _")
   send_buffer_to_tmux()
 
 def staircase_send_to_ghci():
