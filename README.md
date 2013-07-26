@@ -24,6 +24,12 @@ with SBT console).
 * Test your code **environmentwise**: if you start Vim inside an [SBT]()
   project, Staircase will automatically run the associated console.
 
+# Use SBT with Staircase
+It should be the default, but think about putting this line in your .vimrc:
+
+```
+let g:staircase_use_sbt = 1
+```
 
 # Installation
 
